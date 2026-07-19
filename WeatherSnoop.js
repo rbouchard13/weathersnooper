@@ -296,7 +296,7 @@ async function showPosition(lat,lng) {
 	markers.push(marker);
 	map.flyTo({
 		center: [lng, lat],
-		zoom: 8,
+		zoom: 7,
 		essential: true
 	});
 	refresh = false;
